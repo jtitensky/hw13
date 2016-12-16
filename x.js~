@@ -1,0 +1,12 @@
+console.log("ayo")
+
+var addElement=function(e){
+console.log(this);
+var x=document.createElement("li");
+li.appendChild("new");
+document.body.ol.appendChild(x);
+}
+
+
+var a=document.getElementById('a');
+a.addEventListener('click',addElement);
